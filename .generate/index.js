@@ -37,8 +37,8 @@ internals.main = async () => {
         throw new Error(`${internals.out} is not a folder`);
     }
 
-    const today = new Date().toISOString().substr(0, 10);
-    // const today = '2020-05-15';
+    // const today = new Date().toISOString().substr(0, 10);
+    const today = '2022-06-02';
 
     const versions = {
         all: [],
